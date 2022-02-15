@@ -1,0 +1,11 @@
+;Version=2
+;ProjectId=125830
+;Checksum=0
+;Filesize=0
+.cloud_dd:REAL:2:20:4:b:16#02000020
+.cloud_dd_zad:REAL:2:28:4:b:16#02000020
+.cloud_YP:WORD:2:24:2:b:16#02000020
+.cloud_zagruzka:REAL:2:32:4:b:16#02000020
+.pr200_dd:WORD:1:4:2:b:16#02000020
+.pr200_dd_zad:WORD:1:6:2:b:16#02000020
+.pr200_YP:WORD:1:8:2:b:16#02000020

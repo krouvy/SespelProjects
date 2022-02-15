@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-5"?>
+
+<CoDeSysSymbolTable>
+	<SymbolHeader>
+		<Version>-1</Version>
+		<ProjectId>692025</ProjectId>
+		<WorkbenchVersion>2.3.9.41</WorkbenchVersion>
+		<CompilerVersion>2.3.9.41</CompilerVersion>
+	</SymbolHeader>
+	<SymbolTypeList>
+		<TypeSimple TypeId="0" Size="4">DWORD</TypeSimple>
+		<TypeUserdef TypeId="1" Size="8">
+			<Name>SYSTIME64</Name>
+			<Var Type="0" Flags="1073742083" Access="114" RefId="31" Offset="0">ulLow</Var>
+			<Var Type="0" Flags="1073742083" Access="114" RefId="31" Offset="4">ulHigh</Var>
+		</TypeUserdef>
+		<TypePointer TypeId="2" Size="4">
+			<BaseType>
+				<TypeUserdef Size="8">
+					<Name>SYSTIME64</Name>
+					<Var Type="0" Flags="1073742083" Access="114" RefId="31" Offset="0">ulLow</Var>
+					<Var Type="0" Flags="1073742083" Access="114" RefId="31" Offset="4">ulHigh</Var>
+				</TypeUserdef>
+			</BaseType>
+		</TypePointer>
+		<TypeSimple TypeId="3" Size="2">UINT</TypeSimple>
+		<TypeUserdef TypeId="4" Size="24">
+			<Name>SYSTEMTIMEDATE</Name>
+			<Var Type="0" Flags="1073742083" Access="114" RefId="33" Offset="0">dwLowMSecs</Var>
+			<Var Type="0" Flags="1073742083" Access="114" RefId="33" Offset="4">dwHighMsec</Var>
+			<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="8">Year</Var>
+			<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="10">Month</Var>
+			<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="12">Day</Var>
+			<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="14">Hour</Var>
+			<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="16">Minute</Var>
+			<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="18">Second</Var>
+			<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="20">Milliseconds</Var>
+			<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="22">DayOfWeek</Var>
+		</TypeUserdef>
+		<TypePointer TypeId="5" Size="4">
+			<BaseType>
+				<TypeUserdef Size="24">
+					<Name>SYSTEMTIMEDATE</Name>
+					<Var Type="0" Flags="1073742083" Access="114" RefId="33" Offset="0">dwLowMSecs</Var>
+					<Var Type="0" Flags="1073742083" Access="114" RefId="33" Offset="4">dwHighMsec</Var>
+					<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="8">Year</Var>
+					<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="10">Month</Var>
+					<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="12">Day</Var>
+					<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="14">Hour</Var>
+					<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="16">Minute</Var>
+					<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="18">Second</Var>
+					<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="20">Milliseconds</Var>
+					<Var Type="3" Flags="1073742083" Access="114" RefId="33" Offset="22">DayOfWeek</Var>
+				</TypeUserdef>
+			</BaseType>
+		</TypePointer>
+		<TypeUserdef TypeId="6" Size="8">
+			<Name>CURTIMEEX</Name>
+			<Var Type="2" Flags="1342178563" Access="114" RefId="34" Offset="0">SystemTime</Var>
+			<Var Type="5" Flags="1342178563" Access="114" RefId="34" Offset="4">TimeDate</Var>
+		</TypeUserdef>
+		<TypeSimple TypeId="7" Size="1">BOOL</TypeSimple>
+		<TypeSimple TypeId="8" Size="4">TIME</TypeSimple>
+		<TypeUserdef TypeId="9" Size="24">
+			<Name>TON</Name>
+			<Var Type="7" Flags="1073742080" Access="114" RefId="24" Offset="0">M</Var>
+			<Var Type="8" Flags="1073742080" Access="114" RefId="24" Offset="4">StartTime</Var>
+			<Var Type="7" Flags="1073742081" Access="114" RefId="24" Offset="8">IN</Var>
+			<Var Type="8" Flags="1073742081" Access="114" RefId="24" Offset="12">PT</Var>
+			<Var Type="7" Flags="1073742082" Access="114" RefId="24" Offset="16">Q</Var>
+			<Var Type="8" Flags="1073742082" Access="114" RefId="24" Offset="20">ET</Var>
+		</TypeUserdef>
+		<TypeUserdef TypeId="10" Size="4">
+			<Name>R_TRIG</Name>
+			<Var Type="7" Flags="1073742080" Access="114" RefId="16" Offset="0">M</Var>
+			<Var Type="7" Flags="1073742081" Access="114" RefId="16" Offset="1">CLK</Var>
+			<Var Type="7" Flags="1073742082" Access="114" RefId="16" Offset="2">Q</Var>
+		</TypeUserdef>
+		<TypeSimple TypeId="11" Size="4">REAL</TypeSimple>
+		<TypeSimple TypeId="12" Size="2">WORD</TypeSimple>
+	</SymbolTypeList>
+	<SymbolVarList>
+		<Var Type="11" Flags="33554464" Access="98" RefId="2" Offset="20">.cloud_dd</Var>
+		<Var Type="11" Flags="33554464" Access="98" RefId="2" Offset="28">.cloud_dd_zad</Var>
+		<Var Type="12" Flags="33554464" Access="98" RefId="2" Offset="24">.cloud_YP</Var>
+		<Var Type="11" Flags="33554464" Access="98" RefId="2" Offset="32">.cloud_zagruzka</Var>
+		<Var Type="12" Flags="33554464" Access="98" RefId="1" Offset="4">.pr200_dd</Var>
+		<Var Type="12" Flags="33554464" Access="98" RefId="1" Offset="6">.pr200_dd_zad</Var>
+		<Var Type="12" Flags="33554464" Access="98" RefId="1" Offset="8">.pr200_YP</Var>
+		<Var Type="12" Flags="33554464" Access="98" RefId="2" Offset="52">.tcp_chas</Var>
+		<Var Type="11" Flags="33554464" Access="98" RefId="2" Offset="36">.tcp_dd</Var>
+		<Var Type="11" Flags="33554464" Access="98" RefId="2" Offset="44">.tcp_dd_zad</Var>
+		<Var Type="12" Flags="33554464" Access="98" RefId="2" Offset="54">.tcp_min</Var>
+		<Var Type="12" Flags="33554464" Access="98" RefId="2" Offset="56">.tcp_sec</Var>
+		<Var Type="12" Flags="33554464" Access="98" RefId="2" Offset="40">.tcp_YP</Var>
+		<Var Type="11" Flags="33554464" Access="98" RefId="2" Offset="48">.tcp_zagruzka</Var>
+		<Var Type="3" Flags="72" Access="98" RefId="3" Offset="48">PLC_PRG.D</Var>
+		<Var Type="2" Flags="1342178307" Access="98" RefId="3" Offset="0" TopLevelType="6">PLC_PRG.GetTime.SystemTime</Var>
+		<Var Type="5" Flags="1342178307" Access="98" RefId="3" Offset="4" TopLevelType="6">PLC_PRG.GetTime.TimeDate</Var>
+		<Var Type="3" Flags="72" Access="98" RefId="3" Offset="46">PLC_PRG.HH</Var>
+		<Var Type="3" Flags="72" Access="98" RefId="3" Offset="50">PLC_PRG.M</Var>
+		<Var Type="12" Flags="72" Access="98" RefId="3" Offset="94">PLC_PRG.minut</Var>
+		<Var Type="3" Flags="72" Access="98" RefId="3" Offset="42">PLC_PRG.MM</Var>
+		<Var Type="11" Flags="72" Access="98" RefId="3" Offset="104">PLC_PRG.prostoi</Var>
+		<Var Type="12" Flags="72" Access="98" RefId="3" Offset="92">PLC_PRG.sec</Var>
+		<Var Type="7" Flags="72" Access="98" RefId="3" Offset="41">PLC_PRG.set_date</Var>
+		<Var Type="7" Flags="72" Access="98" RefId="3" Offset="40">PLC_PRG.set_time</Var>
+		<Var Type="3" Flags="72" Access="98" RefId="3" Offset="44">PLC_PRG.SS</Var>
+		<Var Type="0" Flags="1073741827" Access="98" RefId="3" Offset="36" TopLevelType="1">PLC_PRG.Sys_Time.ulHigh</Var>
+		<Var Type="0" Flags="1073741827" Access="98" RefId="3" Offset="32" TopLevelType="1">PLC_PRG.Sys_Time.ulLow</Var>
+		<Var Type="8" Flags="1073741826" Access="98" RefId="3" Offset="76" TopLevelType="9">PLC_PRG.t1.ET</Var>
+		<Var Type="7" Flags="1073741825" Access="98" RefId="3" Offset="64" TopLevelType="9">PLC_PRG.t1.IN</Var>
+		<Var Type="7" Flags="1073741824" Access="98" RefId="3" Offset="56" TopLevelType="9">PLC_PRG.t1.M</Var>
+		<Var Type="8" Flags="1073741825" Access="98" RefId="3" Offset="68" TopLevelType="9">PLC_PRG.t1.PT</Var>
+		<Var Type="7" Flags="1073741826" Access="98" RefId="3" Offset="72" TopLevelType="9">PLC_PRG.t1.Q</Var>
+		<Var Type="8" Flags="1073741824" Access="98" RefId="3" Offset="60" TopLevelType="9">PLC_PRG.t1.StartTime</Var>
+		<Var Type="7" Flags="72" Access="98" RefId="3" Offset="54">PLC_PRG.t1_in</Var>
+		<Var Type="11" Flags="72" Access="98" RefId="3" Offset="84">PLC_PRG.t1_real</Var>
+		<Var Type="8" Flags="72" Access="98" RefId="3" Offset="88">PLC_PRG.t1_time</Var>
+		<Var Type="7" Flags="1073741825" Access="98" RefId="3" Offset="81" TopLevelType="10">PLC_PRG.t1_trig.CLK</Var>
+		<Var Type="7" Flags="1073741824" Access="98" RefId="3" Offset="80" TopLevelType="10">PLC_PRG.t1_trig.M</Var>
+		<Var Type="7" Flags="1073741826" Access="98" RefId="3" Offset="82" TopLevelType="10">PLC_PRG.t1_trig.Q</Var>
+		<Var Type="3" Flags="1073741827" Access="98" RefId="3" Offset="20" TopLevelType="4">PLC_PRG.TimeAndDate.Day</Var>
+		<Var Type="3" Flags="1073741827" Access="98" RefId="3" Offset="30" TopLevelType="4">PLC_PRG.TimeAndDate.DayOfWeek</Var>
+		<Var Type="0" Flags="1073741827" Access="98" RefId="3" Offset="12" TopLevelType="4">PLC_PRG.TimeAndDate.dwHighMsec</Var>
+		<Var Type="0" Flags="1073741827" Access="98" RefId="3" Offset="8" TopLevelType="4">PLC_PRG.TimeAndDate.dwLowMSecs</Var>
+		<Var Type="3" Flags="1073741827" Access="98" RefId="3" Offset="22" TopLevelType="4">PLC_PRG.TimeAndDate.Hour</Var>
+		<Var Type="3" Flags="1073741827" Access="98" RefId="3" Offset="28" TopLevelType="4">PLC_PRG.TimeAndDate.Milliseconds</Var>
+		<Var Type="3" Flags="1073741827" Access="98" RefId="3" Offset="24" TopLevelType="4">PLC_PRG.TimeAndDate.Minute</Var>
+		<Var Type="3" Flags="1073741827" Access="98" RefId="3" Offset="18" TopLevelType="4">PLC_PRG.TimeAndDate.Month</Var>
+		<Var Type="3" Flags="1073741827" Access="98" RefId="3" Offset="26" TopLevelType="4">PLC_PRG.TimeAndDate.Second</Var>
+		<Var Type="3" Flags="1073741827" Access="98" RefId="3" Offset="16" TopLevelType="4">PLC_PRG.TimeAndDate.Year</Var>
+		<Var Type="3" Flags="72" Access="98" RefId="3" Offset="52">PLC_PRG.Y</Var>
+		<Var Type="11" Flags="72" Access="98" RefId="3" Offset="100">PLC_PRG.zagruzka_okrugl</Var>
+		<Var Type="11" Flags="72" Access="98" RefId="3" Offset="96">PLC_PRG.zagruzka_sutki</Var>
+	</SymbolVarList>
+	<SymbolTaskList/>
+	<SymbolTargetSettings>
+		<MaxNumberOfPOUs>16383</MaxNumberOfPOUs>
+		<Segments>
+			<Segment Area="0" RefId="0" Address="0" Size="10" Attributes="0"/>
+			<Segment Area="0" RefId="1" Address="12" Size="122" Attributes="0"/>
+			<Segment Area="0" RefId="2" Address="136" Size="234" Attributes="0"/>
+			<Segment Area="0" RefId="3" Address="372" Size="4096" Attributes="2"/>
+			<Segment Area="0" RefId="4" Address="4468" Size="131072" Attributes="1"/>
+		</Segments>
+	</SymbolTargetSettings>
+</CoDeSysSymbolTable>
